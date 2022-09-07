@@ -1,0 +1,92 @@
+body {
+    background: rgb(24, 5, 5);
+    color: white;
+    font-family: 'Roboto';
+    padding: 100px;
+}
+
+main {
+    min-height: 400px;
+    max-width: 500px;
+    /* background: bisque; */
+    margin: 0 auto;
+    background: blue;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+p#erro {
+    background: red;
+}
+
+p#acerto {
+    background: green;
+}
+
+.visivel {
+    display: block;
+}
+
+.invisivel {
+    display: none;
+}
+.cabecalho{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#titulo{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+
+}
+#subtitulo{
+    border: 2px solid gray;
+    border-radius: 300px;
+    padding: 20px;
+}
+#jogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    
+
+}
+#area_palpites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 5px;
+    font: size 20px;
+}
+#btn_palpite{
+    display: block;
+    color:red;
+    
+    border-radius: 50px;
+    width: 200px;
+}
+#campo_numero{
+    display: block;
+    width: 200px;
+    
+}
+form{
+ 
+    display: block;
+    align-items: center;
+    padding: 2px;
+    flex-direction: row;
+}
